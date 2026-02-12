@@ -75,15 +75,10 @@
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     padding-top: 9px;
-    transition: transform $transition-time ease;
 
     @include on-tablet {
       grid-column: 4 / 6;
       padding-top: 15px;
-    }
-
-    &:hover {
-      transform: scale(1.1);
     }
   }
 

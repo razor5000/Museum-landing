@@ -14,6 +14,14 @@
     padding-inline: 56px;
   }
 
+  &__img {
+    @include hover(transform, scale(1.05));
+
+    @include on-desktop {
+      max-width: 670px;
+    }
+  }
+
   &__info-box {
     display: flex;
     flex-direction: column;

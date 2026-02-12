@@ -9,4 +9,6 @@
   color: $c-title;
   text-align: center;
   text-decoration: none;
+
+  @include hover(transform, scale(1.1));
 }
