@@ -2,7 +2,7 @@
   "name": "museum",
   "version": "1.0.0",
   "description": "museum",
-  "homepage": "Museum",
+  "homepage": "https://razor5000.github.io/Museum-landing/",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
