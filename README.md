@@ -21,7 +21,7 @@
 
 ## 🚀 Как запустить локально
 1. Клонировать репозиторий:
-   `git clone https://github.com/razor5000/my-bike-landing-page.git`
+   `git clone https://github.com/razor5000/Museum-landing.git`
 2. Установить зависимости:
    `npm install`
 3. Запустить режим разработки:
