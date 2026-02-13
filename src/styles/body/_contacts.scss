@@ -12,6 +12,8 @@
 
   &__value {
     margin: 0;
+    transform: scale(0.98);
+    @include hover(transform, scale(1));
   }
 
   &__address {
