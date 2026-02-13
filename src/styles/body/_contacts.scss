@@ -11,8 +11,9 @@
   }
 
   &__value {
-    margin: 0;
     transform: scale(0.98);
+    margin: 0;
+    
     @include hover(transform, scale(1));
   }
 
