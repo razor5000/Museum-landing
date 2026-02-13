@@ -25,4 +25,10 @@
       opacity: 1;
     }
   }
+
+}
+
+.is-locked {
+  overflow: hidden !important;
+  touch-action: none;
 }
