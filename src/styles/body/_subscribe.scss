@@ -16,21 +16,27 @@
   color: $c-typo-secondary;
 
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../../images/bgi/mobile/subscribe-bgi.jpg);
+  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  url(../../images/bgi/mobile/subscribe-bgi.jpg);
   background-position: center;
   background-size: cover;
 
   @include on-tablet {
     justify-content: center;
     height: 60vh;
+    
     min-height: 380px;
     max-height: 550px;
+
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../../images/bgi/tablet/subscribe-bgi.jpg);
   }
 
   @include on-desktop {
     height: 80vh;
   }
+
 
   &__content {
     justify-content: center;
@@ -57,4 +63,8 @@
   &__email-group {
     margin-top: 50px;
   }
+
+    @media (min-width: 1280px) {
+      max-height: 600px;
+    }
 }
